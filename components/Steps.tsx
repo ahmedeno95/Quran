@@ -181,13 +181,12 @@ export function StepOne() {
         />
       </FieldBlock>
 
-      <FieldBlock name="available_1_to_8" label="2) هل حضرتك متفرغة من 1 ظهراً لـ 8 مساءً؟">
+      <FieldBlock name="available_1_to_8" label="2) هل حضرتك متفرغة من 1 ظهراً لـ 8 مساءً (4 ساعات على الأقل)؟">
         <RadioCards
           name="available_1_to_8"
           options={[
             { label: "نعم", value: "نعم" },
             { label: "لا", value: "لا" },
-            { label: "تفرغ جزئي", value: "تفرغ جزئي" }
           ]}
           columns={3}
         />
