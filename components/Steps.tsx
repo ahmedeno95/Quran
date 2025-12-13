@@ -412,7 +412,7 @@ export function StepFour() {
         <Textarea id="academies_worked_with" rows={3} placeholder="..." {...register("academies_worked_with")} />
       </FieldBlock>
 
-      <FieldBlock name="session_plan" label="7) كيف تقسمين الحلقة القرآنية؟" hint="وصف مختصر (مثال: تلاوة/تصحيح/مراجعة/تجويد/واجب).">
+      <FieldBlock name="session_plan" label="7) كيف تقسمين الحلقة القرآنية؟" hint="وصف تفصيلي (مثال: تلاوة/تصحيح/مراجعة/تجويد/واجب).">
         <Textarea id="session_plan" rows={4} placeholder="..." {...register("session_plan")} />
       </FieldBlock>
 
