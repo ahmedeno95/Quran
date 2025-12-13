@@ -80,7 +80,7 @@ export const TeacherApplicationSchema = z.object({
   ),
 
   available_1_to_8: requiredChoice("التفرغ من 1 إلى 8").refine(
-    (v) => ["نعم", "لا", "تفرغ جزئي"].includes(v),
+    (v) => ["نعم", "لا"].includes(v),
     { message: "من فضلك اختاري إجابة صحيحة." }
   ),
 
